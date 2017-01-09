@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: zhy
+  host: zhy
+  disk_quota: 1024M
+  services:
+  - zhy-cloudantNoSQLDB
+  - Internet of Things Platform-zhy
+  - Geospatial Analytics-zhy
